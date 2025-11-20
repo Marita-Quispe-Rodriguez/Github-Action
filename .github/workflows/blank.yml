@@ -60,6 +60,11 @@ jobs:
           echo "El usuario es: ${{env.user}}"
           echo "La contraseña  es: ${{env.password}}"
 
+       # Impresion de varibles abierta
+      - name: Variables abierta
+        run: |
+          echo "Imprimir variables abiertas: ${{vars.semana14}}"
+         
 
 
     
