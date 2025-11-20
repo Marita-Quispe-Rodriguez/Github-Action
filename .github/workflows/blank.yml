@@ -57,8 +57,8 @@ jobs:
        # Impresion de varibles secretas
       - name: Variables secretas 
         run: |
-          echo "La region es: ${{env.user}}"
-          echo "La cantidad es: ${{env.password}}"
+          echo "El usuario es: ${{env.user}}"
+          echo "La contraseña  es: ${{env.password}}"
 
 
 
