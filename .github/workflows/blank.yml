@@ -22,7 +22,7 @@ jobs:
 
       user: ${{secrets.user}}
       password: ${{secrets.PASSWORD}}
-      password2: ${{secrets.PASSWORD_2}}
+      password_2: ${{secrets.PASSWORD_2}}
 
 
     # The type of runner that the job will run on
@@ -61,7 +61,7 @@ jobs:
         run: |
           echo "El usuario es: ${{env.user}}"
           echo "La contraseña  es: ${{env.password}}"
-          echo "La contraseña  es: ${{env.password2}}"
+          echo "La contraseña 2 es: ${{env.password_2}}"
 
        # Impresion de varibles abierta
       - name: Variables abierta
